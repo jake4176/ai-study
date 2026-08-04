@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 마케팅 오토메이션 | 1인 기업 & 소상공인 초스피드 마케팅 솔루션</title>
+    <meta name="description" content="AI 노코드 마케팅 자동화 솔루션. 제품명과 타깃만 입력하면 5초 만에 네이버 블로그 원고, 후킹 제목, 인스타그램 카피가 자동 생성됩니다.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Pretendard:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Animated Gradients -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon">🚀</span>
+                <span class="logo-text">AutoMark<span class="highlight">AI</span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="#features">주요 기능</a>
+                <a href="#demo">AI 체험하기</a>
+                <a href="#pricing">요금제</a>
+                <a href="#testimonials">고객 후기</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#demo" class="btn btn-secondary">무료 체험</a>
+                <a href="#pricing" class="btn btn-primary glow-effect">구독 시작하기</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="badge">
+                    <span class="badge-dot"></span> 2026 AI 마케팅 자동화 1위 솔루션
+                </div>
+                <h1 class="hero-title">
+                    마케터 없이 5초 만에,<br>
+                    <span class="gradient-text">매출 올리는 블로그 원고</span> 자동 완성을!
+                </h1>
+                <p class="hero-subtitle">
+                    AI 노코드 엔진으로 제품명과 타깃만 입력하세요.<br>
+                    후킹 제목 5선, 네이버 상위노출 블로그 원고, SNS 카피까지 1초 만에 뽑아드립니다.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#demo" class="btn btn-primary btn-lg glow-effect">⚡ 지금 무료로 체험하기</a>
+                    <a href="#pricing" class="btn btn-outline btn-lg">요금제 보기 ➔</a>
+                </div>
+
+                <!-- Stats Bar -->
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">98.4%</span>
+                        <span class="stat-label">작업 시간 단축</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">월 200만원+</span>
+                        <span class="stat-label">마케팅 비용 절감</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">1,240개+</span>
+                        <span class="stat-label">1인 기업 & 소상공인 도입</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Interactive AI Generator Demo Section -->
+        <section id="demo" class="demo-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">⚡ 직접 체험해 보세요 (Live AI Studio)</h2>
+                    <p class="section-subtitle">아래 정보를 입력하고 생성 버튼을 누르면 실시간으로 마케팅 원고가 작성됩니다.</p>
+                </div>
+
+                <div class="demo-grid">
+                    <!-- Generator Form Input Card -->
+                    <div class="glass-card demo-form-card">
+                        <div class="card-header">
+                            <h3>🎯 마케팅 정보 입력</h3>
+                            <span class="status-tag">AI 모델 준비완료</span>
+                        </div>
+                        <form id="ai-generator-form">
+                            <div class="form-group">
+                                <label for="product-name">1. 제품 / 서비스 이름</label>
+                                <input type="text" id="product-name" placeholder="예: AI 노코드 업무 자동화 대행" value="AI 노코드 업무 자동화 대행" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="target-audience">2. 주요 타깃 고객</label>
+                                <input type="text" id="target-audience" placeholder="예: 소상공인 사장님" value="소상공인 사장님" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="key-benefit">3. 핵심 혜택 (해결해 주는 문제)</label>
+                                <input type="text" id="key-benefit" placeholder="예: 월 200만 원 인건비 절감" value="월 200만 원 인건비 절감" required>
+                            </div>
+
+                            <div class="preset-buttons">
+                                <span class="preset-label">빠른 예시:</span>
+                                <button type="button" class="btn-chip" data-product="부동산 블로그 원고 AI" data-target="공인중개사" data-benefit="매물 블로그 5분 만에 작성">부동산 매물</button>
+                                <button type="button" class="btn-chip" data-product="스마트스토어 상세페이지 카피" data-target="초보 셀러" data-benefit="구매전환율 3배 상승">스마트스토어</button>
+                                <button type="button" class="btn-chip" data-product="1인 기업 AI 생산성 컨설팅" data-target="프리랜서" data-benefit="칼퇴근 & 불로소득 시스템">1인 기업</button>
+                            </div>
+
+                            <button type="submit" id="generate-btn" class="btn btn-primary btn-block glow-effect">
+                                <span class="btn-icon">✨</span> AI 마케팅 원고 5초 만에 생성하기
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Output Results Card -->
+                    <div class="glass-card demo-output-card">
+                        <div class="card-header">
+                            <h3>📝 AI 생성 결과물</h3>
+                            <button id="copy-btn" class="btn btn-sm btn-secondary">📋 전체 복사하기</button>
+                        </div>
+                        
+                        <div id="loading-spinner" class="loading-state hidden">
+                            <div class="spinner"></div>
+                            <p>🤖 AI 에이전트가 후킹 제목과 블로그 원고를 가공하고 있습니다...</p>
+                        </div>
+
+                        <div id="output-container" class="output-content">
+                            <div class="output-block">
+                                <h4>🔥 후킹 제목 5선</h4>
+                                <ul id="title-list" class="title-list">
+                                    <li>1. 🔥 [필독] 소상공인 사장님이라면 반드시 알아야 할 AI 노코드 업무 자동화 대행 3가지 비밀!</li>
+                                    <li>2. 💡 아직도 고생하세요? AI 노코드 업무 자동화 대행 하나로 월 200만 원 인건비 절감 달성하는 법</li>
+                                    <li>3. ✨ 진짜 후기! 소상공인 사장님이 강력 추천하는 AI 노코드 업무 자동화 대행 솔직 사용기</li>
+                                    <li>4. 🚀 2026년 최신 트렌드: AI 노코드 업무 자동화 대행으로 월 200만 원 인건비 절감 10배 빠르게 땡기기</li>
+                                    <li>5. 📢 [특가/이벤트] 소상공인 사장님 맞춤 AI 노코드 업무 자동화 대행 도입 가이드 대공개!</li>
+                                </ul>
+                            </div>
+
+                            <div class="output-block">
+                                <h4>📝 네이버 블로그 최적화 원고</h4>
+                                <div id="blog-body" class="blog-body">
+                                    <p><strong>[블로그 원고] 🔥 [필독] 소상공인 사장님이라면 반드시 알아야 할 AI 노코드 업무 자동화 대행 3가지 비밀!</strong></p>
+                                    <p>안녕하세요! 소상공인 사장님 여러분! 👋<br>오늘 많은 분들이 궁금해하셨던 <strong>AI 노코드 업무 자동화 대행</strong>에 대해 솔직하고 명쾌하게 정리해 드리려고 합니다.</p>
+                                    <hr>
+                                    <p><strong>❓ 왜 지금 AI 노코드 업무 자동화 대행에 주목해야 할까요?</strong></p>
+                                    <p>요즘 소상공인 사장님분들의 가장 큰 고민은 무엇일까요? 바로 시간과 비용은 줄이면서 <strong>월 200만 원 인건비 절감</strong>을 이루는 것인데요!</p>
+                                    <p>기존 방식으로는 많은 시간과 시행착오가 필요했지만, 이제 <strong>AI 노코드 업무 자동화 대행</strong>을 활용하면 놀라운 변화를 경험하실 수 있습니다.</p>
+                                    <hr>
+                                    <p><strong>🌟 AI 노코드 업무 자동화 대행 핵심 장점 TOP 3</strong></p>
+                                    <ol>
+                                        <li><strong>초스피드 실행</strong>: 복잡한 과정 없이 단 5분 만에 세팅 완료!</li>
+                                        <li><strong>비용 극대화</strong>: 최소 비용으로 최대 효용(월 200만 원 인건비 절감) 창출!</li>
+                                        <li><strong>100% 맞춤형</strong>: 소상공인 사장님의 니즈에 딱 맞춘 최적화 시스템 제공.</li>
+                                    </ol>
+                                    <p class="hashtag">#AI노코드업무자동화대행 #소상공인사장님 #월200만원인건비절감 #마케팅자동화 #AutoMarkAI</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">왜 1,200명의 사장님들이 선택했을까요?</h2>
+                    <p class="section-subtitle">복잡한 프롬프트 공부 없이, 클릭 한 번으로 끝나는 마케팅 자동화</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="glass-card feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>초스피드 원고 작성</h3>
+                        <p>키워드 입력 후 5초 만에 네이버 검색 상위 노출에 최적화된 포스팅 원고 완성.</p>
+                    </div>
+                    <div class="glass-card feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>클릭을 부르는 후킹 제목</h3>
+                        <p>CTR(클릭률) 10% 이상 나오는 인지심리학 기반 후킹 제목 5종 자동 제공.</p>
+                    </div>
+                    <div class="glass-card feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>노코드 자동화 시스템</h3>
+                        <p>n8n/Make 및 AI 에이전트 연동으로 매일 정해진 시각에 자동 업로드 지원.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">합리적인 플랜으로 마케팅팀을 고용하세요</h2>
+                    <p class="section-subtitle">월 인건비 200만 원 아끼고, 커피 한 잔 값으로 자동화 완료</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Basic Plan -->
+                    <div class="glass-card pricing-card">
+                        <div class="plan-header">
+                            <span class="plan-name">스타터 (Starter)</span>
+                            <div class="plan-price">
+                                <span class="price">₩9,900</span>
+                                <span class="period">/ 월</span>
+                            </div>
+                            <p class="plan-desc">1인 크리에이터 및 초보 셀러추천</p>
+                        </div>
+                        <ul class="plan-features">
+                            <li>✔️ 월 50회 AI 원고 생성</li>
+                            <li>✔️ 후킹 제목 5선 제공</li>
+                            <li>✔️ 기본 마케팅 템플릿</li>
+                            <li>✔️ 이메일 고객지원</li>
+                        </ul>
+                        <button class="btn btn-outline btn-block select-plan-btn" data-plan="스타터">시작하기</button>
+                    </div>
+
+                    <!-- Pro Plan (Featured) -->
+                    <div class="glass-card pricing-card featured">
+                        <div class="popular-badge">🔥 가장 인기있는 플랜</div>
+                        <div class="plan-header">
+                            <span class="plan-name">프로 1인 기업가 (Pro)</span>
+                            <div class="plan-price">
+                                <span class="price">₩29,900</span>
+                                <span class="period">/ 월</span>
+                            </div>
+                            <p class="plan-desc">본격적인 매출 상승이 필요한 소상공인</p>
+                        </div>
+                        <ul class="plan-features">
+                            <li>✔️ **무제한** AI 원고 생성</li>
+                            <li>✔️ 블로그 + 인스타그램 + 유튜브 통합 생성</li>
+                            <li>✔️ 네이버 SEO 상위 노출 태그 자동 추천</li>
+                            <li>✔️ 1:1 맞춤 카카오톡 우선 지원</li>
+                        </ul>
+                        <button class="btn btn-primary btn-block glow-effect select-plan-btn" data-plan="프로 1인 기업가">14일 무료 체험 시작하기</button>
+                    </div>
+
+                    <!-- Enterprise Plan -->
+                    <div class="glass-card pricing-card">
+                        <div class="plan-header">
+                            <span class="plan-name">에이전시 (Agency)</span>
+                            <div class="plan-price">
+                                <span class="price">₩99,000</span>
+                                <span class="period">/ 월</span>
+                            </div>
+                            <p class="plan-desc">마케팅 대행사 및 중소기업 전용</p>
+                        </div>
+                        <ul class="plan-features">
+                            <li>✔️ 프로 플랜의 모든 기능 포함</li>
+                            <li>✔️ n8n/Make 100% 자동화 API 제공</li>
+                            <li>✔️ 다중 계정 & 클라이언트 관리</li>
+                            <li>✔️ 전담 개발자 맞춤 세팅 지원</li>
+                        </ul>
+                        <button class="btn btn-outline btn-block select-plan-btn" data-plan="에이전시">상담 신청하기</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">생생한 실제 사장님 후기</h2>
+                    <p class="section-subtitle">AutoMarkAI로 바뀐 대표님들의 실제 성공 스토리</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="glass-card testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"매일 퇴근하고 블로그 쓰느라 지쳤었는데, 이제는 5초 만에 원고 뽑아서 올립니다. 한 달 만에 문의 전화가 3배 늘었어요!"</p>
+                        <div class="author-info">
+                            <div class="author-avatar">👨‍💼</div>
+                            <div>
+                                <h4 class="author-name">김성훈 대표</h4>
+                                <p class="author-role">부동산 공인중개사</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"마케터 고용하려면 최소 200만원인데, 이 서비스 하나로 인건비 싹 아꼈습니다. 후킹 제목 퀄리티가 진짜 미쳤네요."</p>
+                        <div class="author-info">
+                            <div class="author-avatar">👩‍💼</div>
+                            <div>
+                                <h4 class="author-name">이수진 대표</h4>
+                                <p class="author-role">스마트스토어 1인 셀러</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <div class="logo">
+                    <span class="logo-icon">🚀</span>
+                    <span class="logo-text">AutoMark<span class="highlight">AI</span></span>
+                </div>
+                <p>1인 기업가와 소상공인을 위한 최첨단 AI 마케팅 자동화 파트너</p>
+                <p class="copyright">© 2026 AutoMarkAI Inc. All rights reserved. Designed by AI 개발부장 코다리 & 대표님</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Subscription Modal -->
+    <div id="plan-modal" class="modal hidden">
+        <div class="modal-content glass-card">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h3>🎉 <span id="modal-plan-name">프로 플랜</span> 구독 신청</h3>
+                <p>14일간 아무 조건 없이 무료로 사용해보세요!</p>
+            </div>
+            <form id="modal-form">
+                <div class="form-group">
+                    <label>대표님 이메일 주소</label>
+                    <input type="email" placeholder="example@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label>연락처 (선택)</label>
+                    <input type="tel" placeholder="010-1234-5678">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block glow-effect">🚀 무료 체험 시작하기</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

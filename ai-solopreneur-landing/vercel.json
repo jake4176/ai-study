@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "automark-ai-landing",
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
